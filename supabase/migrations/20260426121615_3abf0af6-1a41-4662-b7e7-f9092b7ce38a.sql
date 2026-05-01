@@ -1,0 +1,1 @@
+ALTER TABLE public.patient_uploads ADD COLUMN IF NOT EXISTS ai_prediction jsonb;
