@@ -33,9 +33,8 @@ const Footer = () => (
         <div>
           <h4 className="mb-3 font-display font-semibold text-foreground">Contact</h4>
           <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-            <span>support@aiheartcare.com</span>
-            <span>+92 3369668735</span>
-            <span>+92 3355444667</span>
+            <span>turk5337@gmail.com, +92 3369668735</span>
+            <span>malikshomail968@gmail.com, +92 3355444667</span>
           </div>
         </div>
       </div>
