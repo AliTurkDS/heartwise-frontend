@@ -52,7 +52,7 @@ const UploadECG = () => {
       }
 
       // Step 2: Send the URL to the local Flask server
-      const res = await fetch("/api/predict-ecg", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/predict-ecg`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ image_url: signed.signedUrl }),

@@ -66,7 +66,7 @@ const PredictRisk = () => {
 
     try {
       // ── Call your local Flask server ──────────────────────────────────
-      const res = await fetch("/api/predict-tabular", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/predict-tabular`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ features }),
